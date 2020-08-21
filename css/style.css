@@ -1,0 +1,59 @@
+:root {
+    --bg-color : #f7f2e7;
+  }
+  
+  html, body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: var(--bg-color);
+    
+  }
+  
+  .bin2dec-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bin2dec-content .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    height: 14rem;
+    background-color: #2d4059;
+  }
+  
+  .bin2dec-content .content form {
+    padding: 1.4rem;
+  }
+  
+  .bin2dec-content .content form input{
+    display: block;
+    border: none;
+    border-radius: 0.8rem;
+    padding-left: 0.4rem;
+    width: 12rem ;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bin2dec-content .content form button {
+    border: none;
+    border-radius: 0.8rem;
+    width:  22rem;
+    height: 2rem;
+    color: white;
+    font-weight: bold;
+    background-color: #91d18b;
+  }
+  
+  span {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
